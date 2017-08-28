@@ -8,10 +8,12 @@
         }
     ],
     "minimum-stability": "dev",
+    "require-dev": {
+        "pda/pheanstalk": "^3.1"
+    },
     "require": {
         "pda/pheanstalk": "^3.1"
     },
-
     "autoload": {
         "psr-4": {
             "Jollie\\EmailSender\\": "src/"
